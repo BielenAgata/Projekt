@@ -1,14 +1,16 @@
-﻿namespace WinFormsApp1
+﻿namespace Aplikacja_Projektowa
 {
     partial class MainForm
     {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
         private System.ComponentModel.IContainer components = null;
-        private System.Windows.Forms.Button btnAddPart;
-        private System.Windows.Forms.Button btnSaveReport;
-        private System.Windows.Forms.ListBox lstParts;
-        private System.Windows.Forms.TextBox txtReportPath;
-        private System.Windows.Forms.Button btnBrowse;
 
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
             if (disposing && (components != null))
@@ -17,68 +19,165 @@
             }
             base.Dispose(disposing);
         }
+        #region Windows Form Designer generated code
 
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-
+            menuStrip1 = new MenuStrip();
+            fileToolStripMenuItem = new ToolStripMenuItem();
+            newProjectToolStripMenuItem = new ToolStripMenuItem();
+            newFileToolStripMenuItem = new ToolStripMenuItem();
+            designToolStripMenuItem = new ToolStripMenuItem();
+            measurementsToolStripMenuItem = new ToolStripMenuItem();
+            approvalToolStripMenuItem = new ToolStripMenuItem();
+            textBox1 = new TextBox();
+            button1 = new Button();
+            comboBox1 = new ComboBox();
+            Results = new DataGridView();
+            EditItem = new Button();
+            menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)Results).BeginInit();
+            SuspendLayout();
             // 
-            // btnAddPart
+            // menuStrip1
             // 
-            this.btnAddPart = new System.Windows.Forms.Button();
-            this.btnAddPart.Text = "Add Part";
-            this.btnAddPart.Left = 10;
-            this.btnAddPart.Top = 10;
-            this.btnAddPart.Width = 100;
-            this.btnAddPart.Click += BtnAddPart_Click;
-
+            menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem });
+            menuStrip1.Location = new Point(0, 0);
+            menuStrip1.Name = "menuStrip1";
+            menuStrip1.Size = new Size(447, 24);
+            menuStrip1.TabIndex = 0;
+            menuStrip1.Text = "menuStrip1";
             // 
-            // btnSaveReport
+            // fileToolStripMenuItem
             // 
-            this.btnSaveReport = new System.Windows.Forms.Button();
-            this.btnSaveReport.Text = "Save Report";
-            this.btnSaveReport.Left = 120;
-            this.btnSaveReport.Top = 10;
-            this.btnSaveReport.Width = 100;
-            this.btnSaveReport.Click += BtnSaveReport_Click;
-
+            fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { newProjectToolStripMenuItem, newFileToolStripMenuItem });
+            fileToolStripMenuItem.Name = "fileToolStripMenuItem";
+            fileToolStripMenuItem.Size = new Size(37, 20);
+            fileToolStripMenuItem.Text = "File";
             // 
-            // btnBrowse
+            // newProjectToolStripMenuItem
             // 
-            this.btnBrowse = new System.Windows.Forms.Button();
-            this.btnBrowse.Text = "Browse";
-            this.btnBrowse.Left = 480;
-            this.btnBrowse.Top = 320;
-            this.btnBrowse.Width = 100;
-            this.btnBrowse.Click += BtnBrowse_Click;
-
+            newProjectToolStripMenuItem.Name = "newProjectToolStripMenuItem";
+            newProjectToolStripMenuItem.Size = new Size(138, 22);
+            newProjectToolStripMenuItem.Text = "New Project";
+            newProjectToolStripMenuItem.Click += newProjectToolStripMenuItem_Click;
             // 
-            // txtReportPath
+            // newFileToolStripMenuItem
             // 
-            this.txtReportPath = new System.Windows.Forms.TextBox();
-            this.txtReportPath.Left = 10;
-            this.txtReportPath.Top = 320;
-            this.txtReportPath.Width = 460;
-
+            newFileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { designToolStripMenuItem, measurementsToolStripMenuItem, approvalToolStripMenuItem });
+            newFileToolStripMenuItem.Name = "newFileToolStripMenuItem";
+            newFileToolStripMenuItem.Size = new Size(138, 22);
+            newFileToolStripMenuItem.Text = "New File";
             // 
-            // lstParts
+            // designToolStripMenuItem
             // 
-            this.lstParts = new System.Windows.Forms.ListBox();
-            this.lstParts.Left = 10;
-            this.lstParts.Top = 50;
-            this.lstParts.Width = 560;
-            this.lstParts.Height = 250;
-
-            // Dodanie kontrolek do formularza
-            this.Controls.Add(this.btnAddPart);
-            this.Controls.Add(this.btnSaveReport);
-            this.Controls.Add(this.lstParts);
-            this.Controls.Add(this.txtReportPath);
-            this.Controls.Add(this.btnBrowse);
-
-            this.Text = "Production Tracking";
-            this.Size = new System.Drawing.Size(600, 400);
-            this.ResumeLayout(false);
+            designToolStripMenuItem.Name = "designToolStripMenuItem";
+            designToolStripMenuItem.Size = new Size(152, 22);
+            designToolStripMenuItem.Text = "Design";
+            designToolStripMenuItem.Click += designToolStripMenuItem_Click;
+            // 
+            // measurementsToolStripMenuItem
+            // 
+            measurementsToolStripMenuItem.Name = "measurementsToolStripMenuItem";
+            measurementsToolStripMenuItem.Size = new Size(152, 22);
+            measurementsToolStripMenuItem.Text = "Measurements";
+            measurementsToolStripMenuItem.Click += measurementsToolStripMenuItem_Click;
+            // 
+            // approvalToolStripMenuItem
+            // 
+            approvalToolStripMenuItem.Name = "approvalToolStripMenuItem";
+            approvalToolStripMenuItem.Size = new Size(152, 22);
+            approvalToolStripMenuItem.Text = "Approval";
+            approvalToolStripMenuItem.Click += approvalToolStripMenuItem_Click;
+            // 
+            // textBox1
+            // 
+            textBox1.Location = new Point(12, 58);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(186, 23);
+            textBox1.TabIndex = 1;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(204, 58);
+            button1.Name = "button1";
+            button1.Size = new Size(75, 23);
+            button1.TabIndex = 2;
+            button1.Text = "Search";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "All files (*.*)", "Reports (*.txt)", "Design (*.prt; *.stp)", "Approval (*.pdf)", "Projects ()" });
+            comboBox1.Location = new Point(285, 59);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(121, 23);
+            comboBox1.TabIndex = 3;
+            // 
+            // Results
+            // 
+            Results.AccessibleName = "Results";
+            Results.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            Results.BackgroundColor = SystemColors.ButtonHighlight;
+            Results.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            Results.Location = new Point(12, 111);
+            Results.Name = "Results";
+            Results.ReadOnly = true;
+            Results.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+            Results.Size = new Size(394, 247);
+            Results.TabIndex = 4;
+            Results.CellContentClick += Results_CellContentClick;
+            // 
+            // EditItem
+            // 
+            EditItem.AccessibleName = "EditItem";
+            EditItem.Location = new Point(285, 384);
+            EditItem.Name = "EditItem";
+            EditItem.Size = new Size(75, 23);
+            EditItem.TabIndex = 5;
+            EditItem.Text = "Edit Item";
+            EditItem.UseVisualStyleBackColor = true;
+            EditItem.Click += EditItem_Click;
+            // 
+            // MainForm
+            // 
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(447, 450);
+            Controls.Add(EditItem);
+            Controls.Add(Results);
+            Controls.Add(comboBox1);
+            Controls.Add(button1);
+            Controls.Add(textBox1);
+            Controls.Add(menuStrip1);
+            Name = "MainForm";
+            Text = "MainForm";
+            menuStrip1.ResumeLayout(false);
+            menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)Results).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
+
+        #endregion
+
+        private MenuStrip menuStrip1;
+        private ToolStripMenuItem fileToolStripMenuItem;
+        private ToolStripMenuItem newProjectToolStripMenuItem;
+        private ToolStripMenuItem newFileToolStripMenuItem;
+        private ToolStripMenuItem designToolStripMenuItem;
+        private ToolStripMenuItem measurementsToolStripMenuItem;
+        private ToolStripMenuItem approvalToolStripMenuItem;
+        private TextBox textBox1;
+        private Button button1;
+        private ComboBox comboBox1;
+        private DataGridView Results;
+        private Button EditItem;
     }
 }

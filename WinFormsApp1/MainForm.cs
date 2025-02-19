@@ -1,82 +1,124 @@
-using System;
-using System.IO;
-using System.Windows.Forms;
-
-namespace WinFormsApp1
+﻿namespace Aplikacja_Projektowa
 {
     public partial class MainForm : Form
     {
+        private DatabaseManager db;
+
         public MainForm()
         {
             InitializeComponent();
+            db = new DatabaseManager();
         }
 
-        private void BtnAddPart_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            string partName = Microsoft.VisualBasic.Interaction.InputBox("Enter part name:", "Add Part", "");
-            if (!string.IsNullOrWhiteSpace(partName))
+            string searchText = textBox1.Text.Trim();
+            string selectedFilter = comboBox1.SelectedItem?.ToString() ?? "All files"; // Domyślnie ustawiam "All files"
+            DatabaseManager db = new DatabaseManager();
+
+            if (selectedFilter == "Projects ()")
             {
-                string status = "Ordered"; // Domy�lny status zam�wienia
-                string orderDate = DateTime.Now.ToString("yyyy-MM-dd"); // Dzisiejsza data
-                string measurementFile = "Not assigned"; // Brak pliku na pocz�tku
-                string measurementStatus = "No"; // Brak wykonanego pomiaru
-
-                // Tworzenie nowego elementu ListView
-                ListViewItem item = new ListViewItem(new string[]
+                // 🔹 Jeśli wybrano "Projects ()" → wyszukaj projekty
+                List<Project> projects = db.GetProjects();
+                if (projects.Count == 0)
                 {
-                    partName,
-                    status,
-                    orderDate,
-                    measurementFile,
-                    measurementStatus
-                });
+                    MessageBox.Show("No projects found.");
+                    return;
+                }
+                Results.DataSource = projects;
+            }
+            else
+            {
+                List<FileEntry> files = db.SearchFiles(searchText);
 
-                // Dodanie elementu do ListView
-                lstParts.Items.Add(item);
+                // Filtrowanie wyników na podstawie ComboBox
+                if (selectedFilter == "Reports (*.txt)")
+                    files = files.Where(f => f.FileType == "Report").ToList();
+                else if (selectedFilter == "Design (*.prt; *.stp)")
+                    files = files.Where(f => f.FileType == "Design" || f.FileType == "stp").ToList();
+                else if (selectedFilter == "Approval (*.pdf)")
+                    files = files.Where(f => f.FileType == "Approval").ToList();
+
+                if (files.Count == 0)
+                {
+                    MessageBox.Show("No files found.");
+                    return;
+                }
+                Results.DataSource = files;
             }
         }
 
-        private void BtnSaveReport_Click(object sender, EventArgs e)
+        private void newProjectToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (lstParts.SelectedItems.Count == 0)
+            NewProject projectExplorer = new NewProject();
+            projectExplorer.Show();
+        }
+
+        private void designToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EditItem editItem = new EditItem(new FileEntry(-1, 1, "", "Design", "", DateTime.Now));
+            editItem.Show();
+        }
+
+        private void measurementsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EditItem editItem = new EditItem(new FileEntry(-1, 1, "", "Measurement", "", DateTime.Now));
+            editItem.Show();
+        }
+
+        private void approvalToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            EditItem editItem = new EditItem(new FileEntry(-1, 1, "", "Approval", "", DateTime.Now));
+            editItem.Show();
+        }
+
+        private void Results_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void EditItem_Click(object sender, EventArgs e)
+        {
+            if (Results.SelectedRows.Count == 0)
             {
-                MessageBox.Show("Please select a part to assign a measurement file.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Please select an item to edit.");
                 return;
             }
 
-            using (OpenFileDialog ofd = new OpenFileDialog())
-            {
-                ofd.Filter = "Text Files|*.txt|All Files|*.*";
-                if (ofd.ShowDialog() == DialogResult.OK)
-                {
-                    // Pobranie wybranego elementu
-                    ListViewItem selectedItem = lstParts.SelectedItems[0];
+            DataGridViewRow selectedRow = Results.SelectedRows[0];
 
-                    // Zmiana warto�ci w kolumnie "Measurement File"
-                    selectedItem.SubItems[3].Text = ofd.FileName;
-                    selectedItem.SubItems[4].Text = "Yes"; // Oznaczenie, �e pomiar zosta� dokonany
+            try
+            {
+                DatabaseManager db = new DatabaseManager();
+
+                // Pobieramy kolumnę "FileType", jeśli istnieje - czyli sprawdzamy, czy użytkownik wybrał plik czy projekt
+                string fileType = selectedRow.Cells["FileType"].Value?.ToString();
+
+                if (!string.IsNullOrEmpty(fileType))
+                {
+                    // 🟢 To jest plik, więc wczytujemy jego dane
+                    int fileId = Convert.ToInt32(selectedRow.Cells["Id"].Value);
+                    string fileName = selectedRow.Cells["FileName"].Value.ToString();
+                    string filePath = selectedRow.Cells["FilePath"].Value.ToString();
+                    DateTime modifiedDate = DateTime.Parse(selectedRow.Cells["ModifiedDate"].Value.ToString());
+
+                    // Pobieramy ProjectId na podstawie pliku
+                    int projectId = db.GetProjectIdByFileId(fileId);
+
+                    FileEntry selectedFile = new FileEntry(fileId, projectId, fileName, fileType, filePath, modifiedDate);
+                    EditItem editItem = new EditItem(selectedFile);
+                    editItem.Show();
+                }
+                else
+                {
+                    MessageBox.Show("You cannot edit Project");
                 }
             }
-        }
-
-        private void BtnBrowse_Click(object sender, EventArgs e)
-        {
-            if (string.IsNullOrWhiteSpace(txtReportPath.Text))
+            catch (Exception ex)
             {
-                MessageBox.Show("Please select a report file location.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+                MessageBox.Show("Error loading details: " + ex.Message);
             }
-
-            using (StreamWriter writer = new StreamWriter(txtReportPath.Text))
-            {
-                writer.WriteLine("Part Name,Status,Order Date,Measurement File,Measured?");
-                foreach (ListViewItem item in lstParts.Items)
-                {
-                    writer.WriteLine($"{item.SubItems[0].Text},{item.SubItems[1].Text},{item.SubItems[2].Text},{item.SubItems[3].Text},{item.SubItems[4].Text}");
-                }
-            }
-            MessageBox.Show("Report saved successfully.", "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+        
     }
- }
-
+}

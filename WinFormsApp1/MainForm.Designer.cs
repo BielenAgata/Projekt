@@ -39,6 +39,7 @@
             comboBox1 = new ComboBox();
             Results = new DataGridView();
             EditItem = new Button();
+            button2 = new Button();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)Results).BeginInit();
             SuspendLayout();
@@ -48,7 +49,7 @@
             menuStrip1.Items.AddRange(new ToolStripItem[] { fileToolStripMenuItem });
             menuStrip1.Location = new Point(0, 0);
             menuStrip1.Name = "menuStrip1";
-            menuStrip1.Size = new Size(447, 24);
+            menuStrip1.Size = new Size(434, 24);
             menuStrip1.TabIndex = 0;
             menuStrip1.Text = "menuStrip1";
             // 
@@ -56,13 +57,13 @@
             // 
             fileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { newProjectToolStripMenuItem, newFileToolStripMenuItem });
             fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            fileToolStripMenuItem.Size = new Size(37, 20);
-            fileToolStripMenuItem.Text = "File";
+            fileToolStripMenuItem.Size = new Size(46, 20);
+            fileToolStripMenuItem.Text = "Main";
             // 
             // newProjectToolStripMenuItem
             // 
             newProjectToolStripMenuItem.Name = "newProjectToolStripMenuItem";
-            newProjectToolStripMenuItem.Size = new Size(138, 22);
+            newProjectToolStripMenuItem.Size = new Size(180, 22);
             newProjectToolStripMenuItem.Text = "New Project";
             newProjectToolStripMenuItem.Click += newProjectToolStripMenuItem_Click;
             // 
@@ -70,27 +71,27 @@
             // 
             newFileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { designToolStripMenuItem, measurementsToolStripMenuItem, approvalToolStripMenuItem });
             newFileToolStripMenuItem.Name = "newFileToolStripMenuItem";
-            newFileToolStripMenuItem.Size = new Size(138, 22);
-            newFileToolStripMenuItem.Text = "New File";
+            newFileToolStripMenuItem.Size = new Size(180, 22);
+            newFileToolStripMenuItem.Text = "New Item";
             // 
             // designToolStripMenuItem
             // 
             designToolStripMenuItem.Name = "designToolStripMenuItem";
-            designToolStripMenuItem.Size = new Size(152, 22);
+            designToolStripMenuItem.Size = new Size(180, 22);
             designToolStripMenuItem.Text = "Design";
             designToolStripMenuItem.Click += designToolStripMenuItem_Click;
             // 
             // measurementsToolStripMenuItem
             // 
             measurementsToolStripMenuItem.Name = "measurementsToolStripMenuItem";
-            measurementsToolStripMenuItem.Size = new Size(152, 22);
-            measurementsToolStripMenuItem.Text = "Measurements";
+            measurementsToolStripMenuItem.Size = new Size(180, 22);
+            measurementsToolStripMenuItem.Text = "Measurement";
             measurementsToolStripMenuItem.Click += measurementsToolStripMenuItem_Click;
             // 
             // approvalToolStripMenuItem
             // 
             approvalToolStripMenuItem.Name = "approvalToolStripMenuItem";
-            approvalToolStripMenuItem.Size = new Size(152, 22);
+            approvalToolStripMenuItem.Size = new Size(180, 22);
             approvalToolStripMenuItem.Text = "Approval";
             approvalToolStripMenuItem.Click += approvalToolStripMenuItem_Click;
             // 
@@ -114,10 +115,10 @@
             // comboBox1
             // 
             comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "All files (*.*)", "Reports (*.txt)", "Design (*.prt; *.stp)", "Approval (*.pdf)", "Projects ()" });
+            comboBox1.Items.AddRange(new object[] { "All files (*.*)", "Design (*.prt)", "Measurement (*.txt)", "Approval (*.pdf)", "Projects ()" });
             comboBox1.Location = new Point(285, 59);
             comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(121, 23);
+            comboBox1.Size = new Size(137, 23);
             comboBox1.TabIndex = 3;
             // 
             // Results
@@ -130,14 +131,13 @@
             Results.Name = "Results";
             Results.ReadOnly = true;
             Results.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            Results.Size = new Size(394, 247);
+            Results.Size = new Size(410, 247);
             Results.TabIndex = 4;
-            Results.CellContentClick += Results_CellContentClick;
             // 
             // EditItem
             // 
             EditItem.AccessibleName = "EditItem";
-            EditItem.Location = new Point(285, 384);
+            EditItem.Location = new Point(347, 376);
             EditItem.Name = "EditItem";
             EditItem.Size = new Size(75, 23);
             EditItem.TabIndex = 5;
@@ -145,11 +145,21 @@
             EditItem.UseVisualStyleBackColor = true;
             EditItem.Click += EditItem_Click;
             // 
+            // button2
+            // 
+            button2.Location = new Point(12, 376);
+            button2.Name = "button2";
+            button2.Size = new Size(136, 23);
+            button2.TabIndex = 6;
+            button2.Text = "View Project Details";
+            button2.UseVisualStyleBackColor = true;
+            // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(447, 450);
+            ClientSize = new Size(434, 411);
+            Controls.Add(button2);
             Controls.Add(EditItem);
             Controls.Add(Results);
             Controls.Add(comboBox1);
@@ -179,5 +189,6 @@
         private ComboBox comboBox1;
         private DataGridView Results;
         private Button EditItem;
+        private Button button2;
     }
 }

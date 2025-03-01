@@ -49,36 +49,36 @@
             label1.Font = new Font("Segoe UI", 12F);
             label1.Location = new Point(25, 28);
             label1.Name = "label1";
-            label1.Size = new Size(141, 21);
+            label1.Size = new Size(160, 21);
             label1.TabIndex = 0;
-            label1.Text = "Details Of Member";
+            label1.Text = "Details Of Edited Item";
             // 
             // label2
             // 
             label2.AutoSize = true;
             label2.Location = new Point(12, 67);
             label2.Name = "label2";
-            label2.Size = new Size(90, 15);
+            label2.Size = new Size(69, 15);
             label2.TabIndex = 1;
-            label2.Text = "Member Name:";
+            label2.Text = "Item Name:";
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Location = new Point(12, 96);
             label3.Name = "label3";
-            label3.Size = new Size(82, 15);
+            label3.Size = new Size(61, 15);
             label3.TabIndex = 2;
-            label3.Text = "Member Type:";
+            label3.Text = "Item Type:";
             // 
             // label5
             // 
             label5.AutoSize = true;
             label5.Location = new Point(12, 125);
             label5.Name = "label5";
-            label5.Size = new Size(124, 15);
+            label5.Size = new Size(103, 15);
             label5.TabIndex = 4;
-            label5.Text = "Member Localization: ";
+            label5.Text = "Item Localization: ";
             // 
             // textBox1
             // 
@@ -98,6 +98,7 @@
             // 
             textBox4.Location = new Point(147, 154);
             textBox4.Name = "textBox4";
+            textBox4.ReadOnly = true;
             textBox4.Size = new Size(173, 23);
             textBox4.TabIndex = 9;
             // 
@@ -106,9 +107,9 @@
             label6.AutoSize = true;
             label6.Location = new Point(12, 154);
             label6.Name = "label6";
-            label6.Size = new Size(72, 15);
+            label6.Size = new Size(51, 15);
             label6.TabIndex = 10;
-            label6.Text = "Member ID: ";
+            label6.Text = "Item ID: ";
             // 
             // button1
             // 
@@ -116,7 +117,7 @@
             button1.Name = "button1";
             button1.Size = new Size(308, 23);
             button1.TabIndex = 11;
-            button1.Text = "Save Changed File";
+            button1.Text = "Save Changed Item";
             button1.UseVisualStyleBackColor = true;
             button1.Click += button1_Click;
             // 
@@ -126,7 +127,7 @@
             button2.Name = "button2";
             button2.Size = new Size(308, 23);
             button2.TabIndex = 12;
-            button2.Text = "Discard Changes To File";
+            button2.Text = "Discard Changes To Item";
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click;
             // 
@@ -135,9 +136,9 @@
             label4.AutoSize = true;
             label4.Location = new Point(12, 183);
             label4.Name = "label4";
-            label4.Size = new Size(61, 15);
+            label4.Size = new Size(48, 15);
             label4.TabIndex = 13;
-            label4.Text = "Project ID:";
+            label4.Text = "Item ID:";
             // 
             // comboBox1ProjectId
             // 
@@ -162,7 +163,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(332, 334);
+            ClientSize = new Size(334, 336);
             Controls.Add(comboBox1);
             Controls.Add(comboBox1ProjectId);
             Controls.Add(label4);

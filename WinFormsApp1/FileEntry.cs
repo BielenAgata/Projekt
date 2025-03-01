@@ -2,21 +2,27 @@
 {
     public class FileEntry
     {
+        public enum FileType
+        {
+            Design,
+            Approval,
+            Measurement
+        }
         public int Id { get; set; }
         public int ProjectId { get; set; }
         public string FileName { get; set; }
-        public string FileType { get; set; }
+        public FileType Type { get; set; }
         public string FilePath { get; set; }
         public DateTime ModifiedDate { get; set; }
 
-        public FileEntry(int id, int projectId, string fileName, string fileType, string filePath, DateTime modifiedDate)
+        public FileEntry(int id, int projectId, string fileName, FileType fileType, string filePath, DateTime modifiedDate)
         {
             Id = id;
             ProjectId = projectId;
             FileName = fileName;
-            FileType = fileType;
+            Type = fileType;
             FilePath = filePath;
             ModifiedDate = modifiedDate;
         }
     }
-}// Obiekty klasy plik
+}

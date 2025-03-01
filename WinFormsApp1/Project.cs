@@ -11,4 +11,4 @@
             Name = name;
         }
     }
-} //Obiekty klasy projekt
+}

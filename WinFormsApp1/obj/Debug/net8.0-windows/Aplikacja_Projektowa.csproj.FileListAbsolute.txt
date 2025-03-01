@@ -29,7 +29,11 @@ E:\stuf\wsiz\sem3\Programowanie_obiektowe\Projekt-aplikacja_okienkowa\Projekt\Wi
 E:\stuf\wsiz\sem3\Programowanie_obiektowe\Projekt-aplikacja_okienkowa\Projekt\WinFormsApp1\bin\Debug\net8.0-windows\runtimes\win-x64\native\e_sqlite3.dll
 E:\stuf\wsiz\sem3\Programowanie_obiektowe\Projekt-aplikacja_okienkowa\Projekt\WinFormsApp1\bin\Debug\net8.0-windows\runtimes\win-x86\native\e_sqlite3.dll
 E:\stuf\wsiz\sem3\Programowanie_obiektowe\Projekt-aplikacja_okienkowa\Projekt\WinFormsApp1\obj\Debug\net8.0-windows\Aplikacja_Projektowa.csproj.AssemblyReference.cache
+E:\stuf\wsiz\sem3\Programowanie_obiektowe\Projekt-aplikacja_okienkowa\Projekt\WinFormsApp1\obj\Debug\net8.0-windows\Aplikacja_Projektowa.AddItem.resources
+E:\stuf\wsiz\sem3\Programowanie_obiektowe\Projekt-aplikacja_okienkowa\Projekt\WinFormsApp1\obj\Debug\net8.0-windows\Aplikacja_Projektowa.EditItem.resources
 E:\stuf\wsiz\sem3\Programowanie_obiektowe\Projekt-aplikacja_okienkowa\Projekt\WinFormsApp1\obj\Debug\net8.0-windows\Aplikacja_Projektowa.MainForm.resources
+E:\stuf\wsiz\sem3\Programowanie_obiektowe\Projekt-aplikacja_okienkowa\Projekt\WinFormsApp1\obj\Debug\net8.0-windows\Aplikacja_Projektowa.NewProject.resources
+E:\stuf\wsiz\sem3\Programowanie_obiektowe\Projekt-aplikacja_okienkowa\Projekt\WinFormsApp1\obj\Debug\net8.0-windows\Aplikacja_Projektowa.ProjectExplorer.resources
 E:\stuf\wsiz\sem3\Programowanie_obiektowe\Projekt-aplikacja_okienkowa\Projekt\WinFormsApp1\obj\Debug\net8.0-windows\Aplikacja_Projektowa.csproj.GenerateResource.cache
 E:\stuf\wsiz\sem3\Programowanie_obiektowe\Projekt-aplikacja_okienkowa\Projekt\WinFormsApp1\obj\Debug\net8.0-windows\Aplikacja_Projektowa.GeneratedMSBuildEditorConfig.editorconfig
 E:\stuf\wsiz\sem3\Programowanie_obiektowe\Projekt-aplikacja_okienkowa\Projekt\WinFormsApp1\obj\Debug\net8.0-windows\Aplikacja_Projektowa.AssemblyInfoInputs.cache
@@ -42,6 +46,3 @@ E:\stuf\wsiz\sem3\Programowanie_obiektowe\Projekt-aplikacja_okienkowa\Projekt\Wi
 E:\stuf\wsiz\sem3\Programowanie_obiektowe\Projekt-aplikacja_okienkowa\Projekt\WinFormsApp1\obj\Debug\net8.0-windows\Aplikacja_Projektowa.pdb
 E:\stuf\wsiz\sem3\Programowanie_obiektowe\Projekt-aplikacja_okienkowa\Projekt\WinFormsApp1\obj\Debug\net8.0-windows\Aplikacja_Projektowa.genruntimeconfig.cache
 E:\stuf\wsiz\sem3\Programowanie_obiektowe\Projekt-aplikacja_okienkowa\Projekt\WinFormsApp1\obj\Debug\net8.0-windows\ref\Aplikacja_Projektowa.dll
-E:\stuf\wsiz\sem3\Programowanie_obiektowe\Projekt-aplikacja_okienkowa\Projekt\WinFormsApp1\obj\Debug\net8.0-windows\Aplikacja_Projektowa.NewProject.resources
-E:\stuf\wsiz\sem3\Programowanie_obiektowe\Projekt-aplikacja_okienkowa\Projekt\WinFormsApp1\obj\Debug\net8.0-windows\Aplikacja_Projektowa.EditItem.resources
-E:\stuf\wsiz\sem3\Programowanie_obiektowe\Projekt-aplikacja_okienkowa\Projekt\WinFormsApp1\obj\Debug\net8.0-windows\Aplikacja_Projektowa.AddItem.resources

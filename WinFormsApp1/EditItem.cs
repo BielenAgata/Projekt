@@ -32,7 +32,7 @@ namespace Aplikacja_Projektowa
             textBox1.Text = file.FileName;
             textBox3.Text = file.FilePath;
             textBox4.Text = file.Id.ToString();
-            comboBox1.Text = file.FileType;
+            comboBox1.SelectedItem = file.Type.ToString();
 
             // Jeśli Project ID jest teraz w ComboBoxie, zaznacz istniejący projekt
             if (comboBox1ProjectId.Items.Contains($"ID: {file.ProjectId}"))
@@ -57,11 +57,23 @@ namespace Aplikacja_Projektowa
         {
             string fileName = textBox1.Text.Trim();
             string filePath = textBox3.Text.Trim();
-            string fileType = comboBox1.SelectedItem?.ToString();
 
             if (string.IsNullOrEmpty(fileName) || string.IsNullOrEmpty(filePath))
             {
                 MessageBox.Show("Please enter a valid file name and path.", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            if (comboBox1.SelectedItem == null)
+            {
+                MessageBox.Show("Please select a valid file type.", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                return;
+            }
+
+            // 🟢 Konwersja `comboBox1.SelectedItem` z `string` na `FileEntry.FileType`
+            if (!Enum.TryParse(comboBox1.SelectedItem?.ToString(), out FileEntry.FileType fileType))
+            {
+                MessageBox.Show("Invalid file type selected.", "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 return;
             }
 
@@ -81,9 +93,9 @@ namespace Aplikacja_Projektowa
                 return;
             }
 
-            Console.WriteLine($"Updating new file: {fileName}, Type: {fileType}, ProjectID: {projectId}");
+            Console.WriteLine($"Updating file: {fileName}, Type: {fileType}, ProjectID: {projectId}");
             db.UpdateFile(file.Id, projectId, fileName, fileType, filePath, DateTime.Now);
-            MessageBox.Show("File was updated added successfully.", "Sukces", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            MessageBox.Show("File was updated successfully.", "Sukces", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             this.DialogResult = DialogResult.OK;
             this.Close();

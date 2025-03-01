@@ -3,71 +3,75 @@
   "WorkspaceRootPath": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\edititem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:edititem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\additem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:additem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\additem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:additem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\additem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:additem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\edititem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:edititem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\newproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:newproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\newproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:newproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\fileentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:fileentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\aplikacja_projektowa.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:aplikacja_projektowa.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\edititem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:edititem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\VisualStudio\\Program\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:databasemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\newproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:newproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:mainform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\additem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:additem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\aplikacja_projektowa.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:aplikacja_projektowa.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\newproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:newproject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\additem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:additem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\fileentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:fileentry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\projectexplorer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:projectexplorer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\edititem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:edititem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\additem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:additem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|e:\\stuf\\wsiz\\sem3\\programowanie_obiektowe\\projekt-aplikacja_okienkowa\\projekt\\winformsapp1\\edititem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|Aplikacja_Projektowa.csproj|solutionrelative:edititem.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\VisualStudio\\Program\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{72D6AF24-0229-453F-A9C5-162209ADD8BA}|WinFormsApp1.csproj|E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\mainform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -93,117 +97,46 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AddItem.cs",
-              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\AddItem.cs",
-              "RelativeDocumentMoniker": "AddItem.cs",
-              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\AddItem.cs",
-              "RelativeToolTip": "AddItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T15:53:21.759Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "MainForm.cs",
               "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
               "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\MainForm.cs",
               "RelativeToolTip": "MainForm.cs",
-              "ViewState": "AgIAAFMAAAAAAAAAAAAEwGYAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAAwIYAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T14:04:01.672Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EditItem.cs [Design]",
-              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\EditItem.cs",
-              "RelativeDocumentMoniker": "EditItem.cs",
-              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\EditItem.cs [Design]",
-              "RelativeToolTip": "EditItem.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:10:48.931Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "EditItem.cs",
-              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\EditItem.cs",
-              "RelativeDocumentMoniker": "EditItem.cs",
-              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\EditItem.cs",
-              "RelativeToolTip": "EditItem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:29:04.407Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "NewProject.cs",
               "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\NewProject.cs",
               "RelativeDocumentMoniker": "NewProject.cs",
               "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\NewProject.cs",
               "RelativeToolTip": "NewProject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAIAwwBMAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-18T13:19:38.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AddItem.cs [Design]",
-              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\AddItem.cs",
-              "RelativeDocumentMoniker": "AddItem.cs",
-              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\AddItem.cs [Design]",
-              "RelativeToolTip": "AddItem.cs [Design]",
+              "DocumentIndex": 0,
+              "Title": "EditItem.cs",
+              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\EditItem.cs",
+              "RelativeDocumentMoniker": "EditItem.cs",
+              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\EditItem.cs",
+              "RelativeToolTip": "EditItem.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAewDAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-14T11:22:58.674Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-02-18T15:29:04.407Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "DatabaseManager.cs",
-              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\DatabaseManager.cs",
-              "RelativeDocumentMoniker": "DatabaseManager.cs",
-              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\DatabaseManager.cs",
-              "RelativeToolTip": "DatabaseManager.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAvwDAAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T16:56:34.845Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AddItem.Designer.cs",
-              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\AddItem.Designer.cs",
-              "RelativeDocumentMoniker": "AddItem.Designer.cs",
-              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\AddItem.Designer.cs",
-              "RelativeToolTip": "AddItem.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMgAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T16:11:54.647Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "MainForm.cs [Design]",
-              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\MainForm.cs",
-              "RelativeDocumentMoniker": "MainForm.cs",
-              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\MainForm.cs [Design]",
-              "RelativeToolTip": "MainForm.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T13:36:17.344Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
               "Title": "NewProject.cs [Design]",
               "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\NewProject.cs",
               "RelativeDocumentMoniker": "NewProject.cs",
@@ -214,31 +147,82 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "FileEntry.cs",
-              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\FileEntry.cs",
-              "RelativeDocumentMoniker": "FileEntry.cs",
-              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\FileEntry.cs",
-              "RelativeToolTip": "FileEntry.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAiAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "MainForm.cs [Design]",
+              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\MainForm.cs",
+              "RelativeDocumentMoniker": "MainForm.cs",
+              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\MainForm.cs [Design]",
+              "RelativeToolTip": "MainForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T17:01:50.471Z"
+              "WhenOpened": "2025-02-18T13:36:17.344Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 7,
+              "Title": "AddItem.cs",
+              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\AddItem.cs",
+              "RelativeDocumentMoniker": "AddItem.cs",
+              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\AddItem.cs",
+              "RelativeToolTip": "AddItem.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAnwDoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T15:53:21.759Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Project.cs",
+              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\Project.cs",
+              "RelativeDocumentMoniker": "Project.cs",
+              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\Project.cs",
+              "RelativeToolTip": "Project.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T17:01:03.501Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DatabaseManager.cs",
+              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\DatabaseManager.cs",
+              "RelativeDocumentMoniker": "DatabaseManager.cs",
+              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\DatabaseManager.cs",
+              "RelativeToolTip": "DatabaseManager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T16:56:34.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T23:32:28.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MainForm.Designer.cs",
               "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\MainForm.Designer.cs",
               "RelativeDocumentMoniker": "MainForm.Designer.cs",
               "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\MainForm.Designer.cs",
               "RelativeToolTip": "MainForm.Designer.cs",
-              "ViewState": "AgIAAD0AAAAAAAAAAAAEwFYAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAAHcAAAAAAAAAAAAnwIcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T17:31:31.819Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "Aplikacja_Projektowa.csproj",
               "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\Aplikacja_Projektowa.csproj",
               "RelativeDocumentMoniker": "Aplikacja_Projektowa.csproj",
@@ -250,32 +234,76 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AddItem.cs [Design]",
+              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\AddItem.cs",
+              "RelativeDocumentMoniker": "AddItem.cs",
+              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\AddItem.cs [Design]",
+              "RelativeToolTip": "AddItem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T11:22:58.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "FileEntry.cs",
+              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\FileEntry.cs",
+              "RelativeDocumentMoniker": "FileEntry.cs",
+              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\FileEntry.cs",
+              "RelativeToolTip": "FileEntry.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAgwBsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T17:01:50.471Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "ProjectExplorer.cs [Design]",
+              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\ProjectExplorer.cs",
+              "RelativeDocumentMoniker": "ProjectExplorer.cs",
+              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\ProjectExplorer.cs [Design]",
+              "RelativeToolTip": "ProjectExplorer.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T16:32:34.021Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "EditItem.cs [Design]",
+              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\EditItem.cs",
+              "RelativeDocumentMoniker": "EditItem.cs",
+              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\EditItem.cs [Design]",
+              "RelativeToolTip": "EditItem.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T15:10:48.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AddItem.Designer.cs",
+              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\AddItem.Designer.cs",
+              "RelativeDocumentMoniker": "AddItem.Designer.cs",
+              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\AddItem.Designer.cs",
+              "RelativeToolTip": "AddItem.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T16:11:54.647Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
               "Title": "EditItem.Designer.cs",
               "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\EditItem.Designer.cs",
               "RelativeDocumentMoniker": "EditItem.Designer.cs",
               "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\EditItem.Designer.cs",
               "RelativeToolTip": "EditItem.Designer.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAUwMkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAUwMoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-18T15:10:56.782Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-18T15:10:56.782Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Project.cs",
-              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\Project.cs",
-              "RelativeDocumentMoniker": "Project.cs",
-              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\Project.cs",
-              "RelativeToolTip": "Project.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-13T17:01:03.501Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "F:\\VisualStudio\\Program\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "F:\\VisualStudio\\Program\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -285,19 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-10T23:32:28.627Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "MainForm.cs [Design]",
               "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\MainForm.cs",
               "RelativeDocumentMoniker": "MainForm.cs",
@@ -308,7 +324,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "NewProject.Designer.cs",
               "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\NewProject.Designer.cs",
               "RelativeDocumentMoniker": "NewProject.Designer.cs",
@@ -320,7 +336,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "ViewDetails.cs [Design]",
               "DocumentMoniker": "E:\\stuf\\wsiz\\sem3\\Programowanie_obiektowe\\Projekt-aplikacja_okienkowa\\Projekt\\WinFormsApp1\\ViewDetails.cs",
               "RelativeDocumentMoniker": "ViewDetails.cs",

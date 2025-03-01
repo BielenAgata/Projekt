@@ -29,10 +29,8 @@
         private void InitializeComponent()
         {
             label1 = new Label();
-            label2 = new Label();
             button3 = new Button();
             textBox1 = new TextBox();
-            textBox2 = new TextBox();
             button4 = new Button();
             SuspendLayout();
             // 
@@ -45,16 +43,6 @@
             label1.Size = new Size(107, 21);
             label1.TabIndex = 1;
             label1.Text = "Project Name:";
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 12F);
-            label2.Location = new Point(12, 49);
-            label2.Name = "label2";
-            label2.Size = new Size(80, 21);
-            label2.TabIndex = 2;
-            label2.Text = "Project ID:";
             // 
             // button3
             // 
@@ -73,13 +61,6 @@
             textBox1.Size = new Size(247, 23);
             textBox1.TabIndex = 6;
             // 
-            // textBox2
-            // 
-            textBox2.Location = new Point(153, 49);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(247, 23);
-            textBox2.TabIndex = 7;
-            // 
             // button4
             // 
             button4.Location = new Point(257, 90);
@@ -94,26 +75,21 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(412, 136);
+            ClientSize = new Size(434, 136);
             Controls.Add(button4);
-            Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(button3);
-            Controls.Add(label2);
             Controls.Add(label1);
             Name = "NewProject";
             Text = "NewProject";
-            //Load += ProjectExplorer_Load;
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
         private Label label1;
-        private Label label2;
         private Button button3;
         private TextBox textBox1;
-        private TextBox textBox2;
         private Button button4;
     }
 }

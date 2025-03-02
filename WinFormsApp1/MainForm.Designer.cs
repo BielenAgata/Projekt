@@ -40,6 +40,7 @@
             Results = new DataGridView();
             EditItem = new Button();
             button2 = new Button();
+            button3 = new Button();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)Results).BeginInit();
             SuspendLayout();
@@ -63,7 +64,7 @@
             // newProjectToolStripMenuItem
             // 
             newProjectToolStripMenuItem.Name = "newProjectToolStripMenuItem";
-            newProjectToolStripMenuItem.Size = new Size(180, 22);
+            newProjectToolStripMenuItem.Size = new Size(138, 22);
             newProjectToolStripMenuItem.Text = "New Project";
             newProjectToolStripMenuItem.Click += newProjectToolStripMenuItem_Click;
             // 
@@ -71,27 +72,27 @@
             // 
             newFileToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { designToolStripMenuItem, measurementsToolStripMenuItem, approvalToolStripMenuItem });
             newFileToolStripMenuItem.Name = "newFileToolStripMenuItem";
-            newFileToolStripMenuItem.Size = new Size(180, 22);
+            newFileToolStripMenuItem.Size = new Size(138, 22);
             newFileToolStripMenuItem.Text = "New Item";
             // 
             // designToolStripMenuItem
             // 
             designToolStripMenuItem.Name = "designToolStripMenuItem";
-            designToolStripMenuItem.Size = new Size(180, 22);
+            designToolStripMenuItem.Size = new Size(147, 22);
             designToolStripMenuItem.Text = "Design";
             designToolStripMenuItem.Click += designToolStripMenuItem_Click;
             // 
             // measurementsToolStripMenuItem
             // 
             measurementsToolStripMenuItem.Name = "measurementsToolStripMenuItem";
-            measurementsToolStripMenuItem.Size = new Size(180, 22);
+            measurementsToolStripMenuItem.Size = new Size(147, 22);
             measurementsToolStripMenuItem.Text = "Measurement";
             measurementsToolStripMenuItem.Click += measurementsToolStripMenuItem_Click;
             // 
             // approvalToolStripMenuItem
             // 
             approvalToolStripMenuItem.Name = "approvalToolStripMenuItem";
-            approvalToolStripMenuItem.Size = new Size(180, 22);
+            approvalToolStripMenuItem.Size = new Size(147, 22);
             approvalToolStripMenuItem.Text = "Approval";
             approvalToolStripMenuItem.Click += approvalToolStripMenuItem_Click;
             // 
@@ -153,12 +154,24 @@
             button2.TabIndex = 6;
             button2.Text = "View Project Details";
             button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
+            // button3
+            // 
+            button3.Location = new Point(266, 376);
+            button3.Name = "button3";
+            button3.Size = new Size(75, 23);
+            button3.TabIndex = 7;
+            button3.Text = "Delete Item";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
             // 
             // MainForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(434, 411);
+            Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(EditItem);
             Controls.Add(Results);
@@ -190,5 +203,6 @@
         private DataGridView Results;
         private Button EditItem;
         private Button button2;
+        private Button button3;
     }
 }

@@ -14,25 +14,27 @@
         private void ButtonSaveProject_Click(object sender, EventArgs e)
         {
             string projectName = textBox1.Text.Trim();
+
             if (string.IsNullOrEmpty(projectName))
             {
                 MessageBox.Show("Please enter a project name.");
                 return;
-            } //sprawdzenie czy podano nazwe
-
-
-            int result = db.AddProject(projectName);
-            if (result > 0)
-            {
-                MessageBox.Show($"Projekt został dodany!\nNazwa: {projectName}",
-                                "Sukces", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            else if (result == -1)
+
+            int projectId = db.AddProject(projectName);
+
+            if (projectId > 0)
             {
-                MessageBox.Show("Nie udało się dodać projektu, ponieważ ID jest już zajęte.",
-                                "Błąd", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show($"Project added successfully!\nID: {projectId}\nName: {projectName}",
+                                "Success", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+            }
+            else
+            {
+                MessageBox.Show("Failed to add project. Try again.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
 
         private void button3_Click(object sender, EventArgs e)
         {

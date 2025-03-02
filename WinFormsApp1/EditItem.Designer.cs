@@ -136,9 +136,9 @@
             label4.AutoSize = true;
             label4.Location = new Point(12, 183);
             label4.Name = "label4";
-            label4.Size = new Size(48, 15);
+            label4.Size = new Size(61, 15);
             label4.TabIndex = 13;
-            label4.Text = "Item ID:";
+            label4.Text = "Project ID:";
             // 
             // comboBox1ProjectId
             // 

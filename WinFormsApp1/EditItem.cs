@@ -5,10 +5,9 @@ namespace Aplikacja_Projektowa
     public partial class EditItem : Form
     {
         private FileEntry file;
-        //private FileEntry createdFile;
         private DatabaseManager db;
 
-        // 🔹 Konstruktor dla edycji istniejącego pliku
+        //konstruktor dla edycji istniejącego pliku
         public EditItem(FileEntry file)
         {
             InitializeComponent();
@@ -25,8 +24,7 @@ namespace Aplikacja_Projektowa
                 .Cast<string>()
                 .FirstOrDefault(item => item.Contains($"(ID: {file.ProjectId})"));
         }
-
-
+        //ładuje informacje o projekcie
         private void LoadFileDetails()
         {
             textBox1.Text = file.FileName;
@@ -40,7 +38,7 @@ namespace Aplikacja_Projektowa
                 comboBox1ProjectId.SelectedItem = $"ID: {file.ProjectId}";
             }
         }
-
+        //ładuje rojekty do okna wyboru
         private void LoadProjectsIntoComboBox()
         {
             comboBox1ProjectId.Items.Clear();
@@ -52,7 +50,7 @@ namespace Aplikacja_Projektowa
                 comboBox1ProjectId.Items.Add($"{project.Name} (ID: {project.Id})");
             }
         }
-
+        //zapis zmian w pliku
         private void button1_Click(object sender, EventArgs e)
         {
             string fileName = textBox1.Text.Trim();
@@ -100,14 +98,14 @@ namespace Aplikacja_Projektowa
             this.DialogResult = DialogResult.OK;
             this.Close();
         }
-
+        //pobiera id projektu
         private int ExtractProjectId(string selectedProjectText)
         {
             // Znalezienie wartości ID wewnątrz nawiasów (ID: X)
             var match = System.Text.RegularExpressions.Regex.Match(selectedProjectText, @"\d+");
             return match.Success ? int.Parse(match.Value) : -1;
         }
-
+        //zamykanie okna
         private void button2_Click(object sender, EventArgs e)
         {
             this.Close();

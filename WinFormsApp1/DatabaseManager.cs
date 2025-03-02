@@ -79,46 +79,57 @@ namespace Aplikacja_Projektowa
         }
 
         // Funkcja pozwalająca na dodanie nowego pliku w oknie ViewDetails
-        public void AddFile(int projectId, string fileName, FileEntry.FileType fileType, string filePath, DateTime modifiedDate)
+        public int AddFile(int projectId, string fileName, FileEntry.FileType fileType, string filePath, DateTime modifiedDate)
         {
-            if (projectId == -1)
-            {
-                MessageBox.Show("Error: No valid project selected for this file.");
-                return;
-            }
-
             using (var connection = new SqliteConnection(connectionString))
             {
                 connection.Open();
                 var command = connection.CreateCommand();
                 command.CommandText = @"
-                INSERT INTO files (project_id, filename, filetype, filepath, modified_date) 
-                VALUES ($projectId, $filename, $filetype, $filepath, $modifiedDate);";
+            INSERT INTO files (project_id, filename, filetype, filepath, modified_date) 
+            VALUES ($projectId, $filename, $filetype, $filepath, $modifiedDate);
+            SELECT last_insert_rowid();"; // ✅ Retrieve new ID
+
                 command.Parameters.AddWithValue("$projectId", projectId);
                 command.Parameters.AddWithValue("$filename", fileName);
                 command.Parameters.AddWithValue("$filetype", fileType.ToString());
                 command.Parameters.AddWithValue("$filepath", filePath);
                 command.Parameters.AddWithValue("$modifiedDate", modifiedDate.ToString("yyyy-MM-dd HH:mm:ss"));
 
-                command.ExecuteNonQuery();
+                return Convert.ToInt32(command.ExecuteScalar());  // ✅ Return new file ID
             }
         }
+
+
         //funkcja update file, zmienia istniejący rekord typu file
         public void UpdateFile(int fileId, int projectId, string fileName, FileEntry.FileType fileType, string filePath, DateTime modifiedDate)
         {
             using (var connection = new SqliteConnection(connectionString))
             {
                 connection.Open();
+
+                // ✅ Check if Project ID exists before updating
+                var checkCommand = connection.CreateCommand();
+                checkCommand.CommandText = "SELECT COUNT(*) FROM projects WHERE id = $projectId;";
+                checkCommand.Parameters.AddWithValue("$projectId", projectId);
+
+                long projectExists = (long)checkCommand.ExecuteScalar();
+                if (projectExists == 0)
+                {
+                    MessageBox.Show($"Project ID {projectId} does not exist. Cannot update file.", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    return;
+                }
+
                 var command = connection.CreateCommand();
                 command.CommandText = @"
-                    UPDATE files 
-                    SET project_id = $projectId, 
-                        filename = $fileName, 
-                        filetype = $fileType, 
-                        filepath = $filePath, 
-                        modified_date = $modifiedDate
-                    WHERE id = $fileId;
-                    ";
+            UPDATE files 
+            SET project_id = $projectId, 
+                filename = $fileName, 
+                filetype = $fileType, 
+                filepath = $filePath, 
+                modified_date = $modifiedDate
+            WHERE id = $fileId;
+        ";
 
                 command.Parameters.AddWithValue("$fileId", fileId);
                 command.Parameters.AddWithValue("$projectId", projectId);
@@ -130,6 +141,7 @@ namespace Aplikacja_Projektowa
                 command.ExecuteNonQuery();
             }
         }
+
         // Metoda pobierania plików projektu
         public List<FileEntry> GetFiles(int projectId)
         {
@@ -236,7 +248,6 @@ namespace Aplikacja_Projektowa
             }
             return projects;
         }
-
         //pobiera id do edycji pliku
         public int GetProjectIdByFileId(int fileId)
         {
@@ -264,5 +275,19 @@ namespace Aplikacja_Projektowa
                 }
             }
         }
+        //sprawdza czy istnieje proejkt
+        public bool ProjectExists(int projectId)
+        {
+            using (var connection = new SqliteConnection(connectionString))
+            {
+                connection.Open();
+                var command = connection.CreateCommand();
+                command.CommandText = "SELECT COUNT(*) FROM projects WHERE id = $projectId;";
+                command.Parameters.AddWithValue("$projectId", projectId);
+
+                return Convert.ToInt32(command.ExecuteScalar()) > 0;
+            }
+        }
+
     }
 }

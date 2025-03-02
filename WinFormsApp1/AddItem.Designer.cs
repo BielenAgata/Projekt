@@ -98,6 +98,7 @@
             // 
             textBox4.Location = new Point(147, 154);
             textBox4.Name = "textBox4";
+            textBox4.ReadOnly = true;
             textBox4.Size = new Size(173, 23);
             textBox4.TabIndex = 9;
             // 
@@ -135,9 +136,9 @@
             label4.AutoSize = true;
             label4.Location = new Point(12, 183);
             label4.Name = "label4";
-            label4.Size = new Size(48, 15);
+            label4.Size = new Size(61, 15);
             label4.TabIndex = 13;
-            label4.Text = "Item ID:";
+            label4.Text = "Project ID:";
             // 
             // comboBox1ProjectId
             // 
@@ -152,7 +153,6 @@
             // 
             comboBox1.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBox1.FormattingEnabled = true;
-            comboBox1.Items.AddRange(new object[] { "Design", "Approval", "Measurement" });
             comboBox1.Location = new Point(147, 96);
             comboBox1.Name = "comboBox1";
             comboBox1.Size = new Size(173, 23);
